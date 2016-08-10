@@ -21,10 +21,7 @@ class RankingViewController: UIViewController, UITableViewDelegate, UITableViewD
         //TODO: ここでスコア順にソート
         //https://firebase.google.com/docs/database/ios/retrieve-data ここ参照
         
-//        ⇩とりあえずそれっぽいコードコピペしたらエラー出た！ byさきね
-//        let myTopPostsQuery = (ref.child("user-posts").child(point())).queryOrderedByChild("starCount")
-        
-        ref.observeEventType(.ChildAdded, withBlock: { snapshot in
+        ref.queryOrderedByChild("point").observeEventType(.ChildAdded, withBlock: { snapshot in
             if let point = snapshot.value!.objectForKey("point") as? Int,
                 username = snapshot.value!.objectForKey("username") as? String,
                 time = snapshot.value!.objectForKey("time") as? String {
