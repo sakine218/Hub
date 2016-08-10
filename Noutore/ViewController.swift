@@ -9,10 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet var startButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+
+        UIView.animateWithDuration(1.3, delay: 0.0,
+        options: UIViewAnimationOptions.Repeat, animations: {
+            () -> Void in
+            self.startButton.alpha = 0.0
+        }, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {

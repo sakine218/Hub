@@ -7,6 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		813DAD681D556B38004FFCB6 /* hub_retryButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 813DAD661D556B38004FFCB6 /* hub_retryButton.png */; };
+		813DAD691D556B38004FFCB6 /* hub_backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 813DAD671D556B38004FFCB6 /* hub_backButton.png */; };
+		813DAD741D557748004FFCB6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 813DAD6F1D557748004FFCB6 /* Default-568h@2x.png */; };
+		813DAD751D557748004FFCB6 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 813DAD701D557748004FFCB6 /* Default-667h@2x.png */; };
+		813DAD761D557748004FFCB6 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 813DAD711D557748004FFCB6 /* Default-736h@3x.png */; };
+		813DAD771D557748004FFCB6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 813DAD721D557748004FFCB6 /* Default.png */; };
+		813DAD781D557748004FFCB6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 813DAD731D557748004FFCB6 /* Default@2x.png */; };
+		816392591D55AD5B00A8A9F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 816392581D55AD5B00A8A9F7 /* GoogleService-Info.plist */; };
+		8163925B1D55C5A900A8A9F7 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8163925A1D55C5A900A8A9F7 /* RankingViewController.swift */; };
+		8163925D1D56D72800A8A9F7 /* RankingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8163925C1D56D72800A8A9F7 /* RankingTableViewCell.swift */; };
+		818F49B71D544D590083C63D /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818F49B61D544D590083C63D /* ScoreViewController.swift */; };
+		818F49DE1D555AB00083C63D /* hub_startScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 818F49DC1D555AB00083C63D /* hub_startScreen.png */; };
+		818F49E31D55600C0083C63D /* hub_startButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 818F49E21D55600C0083C63D /* hub_startButton.png */; };
+		818F49E51D55602B0083C63D /* hub_playgamescreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 818F49E41D55602B0083C63D /* hub_playgamescreen.png */; };
+		818F49E91D5562F30083C63D /* hub_resultScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 818F49E71D5562F30083C63D /* hub_resultScreen.png */; };
+		81B5D4321D56F7D10042DD53 /* hub_rankingButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B5D4301D56F7D00042DD53 /* hub_rankingButton.png */; };
+		81B5D4331D56F7D10042DD53 /* hub_shareButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B5D4311D56F7D10042DD53 /* hub_shareButton.png */; };
+		81B5D4441D5708250042DD53 /* 1100.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B5D4341D5708250042DD53 /* 1100.png */; };
+		81B5D4451D5708250042DD53 /* 0100.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B5D4351D5708250042DD53 /* 0100.png */; };
+		81B5D4461D5708250042DD53 /* 1000.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B5D4361D5708250042DD53 /* 1000.png */; };
+		81B5D4471D5708250042DD53 /* 0000.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B5D4371D5708250042DD53 /* 0000.png */; };
+		81B5D4481D5708250042DD53 /* 1101.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B5D4381D5708250042DD53 /* 1101.png */; };
+		81B5D4491D5708250042DD53 /* 0101.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B5D4391D5708250042DD53 /* 0101.png */; };
+		81B5D44A1D5708250042DD53 /* 1001.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B5D43A1D5708250042DD53 /* 1001.png */; };
+		81B5D44B1D5708250042DD53 /* 0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B5D43B1D5708250042DD53 /* 0001.png */; };
+		81B5D44C1D5708250042DD53 /* 1110.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B5D43C1D5708250042DD53 /* 1110.png */; };
+		81B5D44D1D5708250042DD53 /* 0110.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B5D43D1D5708250042DD53 /* 0110.png */; };
+		81B5D44E1D5708250042DD53 /* 1010.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B5D43E1D5708250042DD53 /* 1010.png */; };
+		81B5D44F1D5708250042DD53 /* 0010.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B5D43F1D5708250042DD53 /* 0010.png */; };
+		81B5D4501D5708250042DD53 /* 1111.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B5D4401D5708250042DD53 /* 1111.png */; };
+		81B5D4511D5708250042DD53 /* 0111.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B5D4411D5708250042DD53 /* 0111.png */; };
+		81B5D4521D5708250042DD53 /* 1011.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B5D4421D5708250042DD53 /* 1011.png */; };
+		81B5D4531D5708250042DD53 /* 0011.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B5D4431D5708250042DD53 /* 0011.png */; };
+		81B5D4551D571B500042DD53 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B5D4541D571B500042DD53 /* Score.swift */; };
 		81E8CDF81D52E9F000A3DE01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E8CDF71D52E9F000A3DE01 /* AppDelegate.swift */; };
 		81E8CDFA1D52E9F000A3DE01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E8CDF91D52E9F000A3DE01 /* ViewController.swift */; };
 		81E8CDFD1D52E9F000A3DE01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81E8CDFB1D52E9F000A3DE01 /* Main.storyboard */; };
@@ -15,6 +49,8 @@
 		81E8CE051D52E9F000A3DE01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81E8CE031D52E9F000A3DE01 /* LaunchScreen.storyboard */; };
 		81E8CE101D52E9F000A3DE01 /* NoutoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E8CE0F1D52E9F000A3DE01 /* NoutoreTests.swift */; };
 		81E8CE1B1D52E9F000A3DE01 /* NoutoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E8CE1A1D52E9F000A3DE01 /* NoutoreUITests.swift */; };
+		81E8CE491D5323E400A3DE01 /* PlayGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E8CE481D5323E400A3DE01 /* PlayGameViewController.swift */; };
+		8F8000ABB3EBC001D9D21E14 /* Pods_Noutore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6A31A65D17A7E8FAAE9AE6F /* Pods_Noutore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +71,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		062E0A0C692BF4711D38FE55 /* Pods-Noutore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noutore.release.xcconfig"; path = "Pods/Target Support Files/Pods-Noutore/Pods-Noutore.release.xcconfig"; sourceTree = "<group>"; };
+		51AA684329DD77994D03C2D6 /* Pods-Noutore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noutore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Noutore/Pods-Noutore.debug.xcconfig"; sourceTree = "<group>"; };
+		813DAD661D556B38004FFCB6 /* hub_retryButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hub_retryButton.png; sourceTree = "<group>"; };
+		813DAD671D556B38004FFCB6 /* hub_backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hub_backButton.png; sourceTree = "<group>"; };
+		813DAD6F1D557748004FFCB6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		813DAD701D557748004FFCB6 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		813DAD711D557748004FFCB6 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		813DAD721D557748004FFCB6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		813DAD731D557748004FFCB6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		813DAD791D557EB4004FFCB6 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		816392581D55AD5B00A8A9F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8163925A1D55C5A900A8A9F7 /* RankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		8163925C1D56D72800A8A9F7 /* RankingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingTableViewCell.swift; sourceTree = "<group>"; };
+		818F49B61D544D590083C63D /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoreViewController.swift; path = ../ScoreViewController.swift; sourceTree = "<group>"; };
+		818F49DC1D555AB00083C63D /* hub_startScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hub_startScreen.png; sourceTree = "<group>"; };
+		818F49E21D55600C0083C63D /* hub_startButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hub_startButton.png; sourceTree = "<group>"; };
+		818F49E41D55602B0083C63D /* hub_playgamescreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hub_playgamescreen.png; sourceTree = "<group>"; };
+		818F49E71D5562F30083C63D /* hub_resultScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hub_resultScreen.png; sourceTree = "<group>"; };
+		81B5D4301D56F7D00042DD53 /* hub_rankingButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hub_rankingButton.png; path = ../../hub_rankingButton.png; sourceTree = "<group>"; };
+		81B5D4311D56F7D10042DD53 /* hub_shareButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hub_shareButton.png; path = ../../hub_shareButton.png; sourceTree = "<group>"; };
+		81B5D4341D5708250042DD53 /* 1100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1100.png; path = ../../1100.png; sourceTree = "<group>"; };
+		81B5D4351D5708250042DD53 /* 0100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 0100.png; path = ../../0100.png; sourceTree = "<group>"; };
+		81B5D4361D5708250042DD53 /* 1000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1000.png; path = ../../1000.png; sourceTree = "<group>"; };
+		81B5D4371D5708250042DD53 /* 0000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 0000.png; path = ../../0000.png; sourceTree = "<group>"; };
+		81B5D4381D5708250042DD53 /* 1101.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1101.png; path = ../../1101.png; sourceTree = "<group>"; };
+		81B5D4391D5708250042DD53 /* 0101.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 0101.png; path = ../../0101.png; sourceTree = "<group>"; };
+		81B5D43A1D5708250042DD53 /* 1001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1001.png; path = ../../1001.png; sourceTree = "<group>"; };
+		81B5D43B1D5708250042DD53 /* 0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 0001.png; path = ../../0001.png; sourceTree = "<group>"; };
+		81B5D43C1D5708250042DD53 /* 1110.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1110.png; path = ../../1110.png; sourceTree = "<group>"; };
+		81B5D43D1D5708250042DD53 /* 0110.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 0110.png; path = ../../0110.png; sourceTree = "<group>"; };
+		81B5D43E1D5708250042DD53 /* 1010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1010.png; path = ../../1010.png; sourceTree = "<group>"; };
+		81B5D43F1D5708250042DD53 /* 0010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 0010.png; path = ../../0010.png; sourceTree = "<group>"; };
+		81B5D4401D5708250042DD53 /* 1111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1111.png; path = ../../1111.png; sourceTree = "<group>"; };
+		81B5D4411D5708250042DD53 /* 0111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 0111.png; path = ../../0111.png; sourceTree = "<group>"; };
+		81B5D4421D5708250042DD53 /* 1011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1011.png; path = ../../1011.png; sourceTree = "<group>"; };
+		81B5D4431D5708250042DD53 /* 0011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 0011.png; path = ../../0011.png; sourceTree = "<group>"; };
+		81B5D4541D571B500042DD53 /* Score.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
 		81E8CDF41D52E9F000A3DE01 /* Noutore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noutore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81E8CDF71D52E9F000A3DE01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81E8CDF91D52E9F000A3DE01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +122,8 @@
 		81E8CE161D52E9F000A3DE01 /* NoutoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoutoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81E8CE1A1D52E9F000A3DE01 /* NoutoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoutoreUITests.swift; sourceTree = "<group>"; };
 		81E8CE1C1D52E9F000A3DE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81E8CE481D5323E400A3DE01 /* PlayGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayGameViewController.swift; sourceTree = "<group>"; };
+		D6A31A65D17A7E8FAAE9AE6F /* Pods_Noutore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Noutore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F8000ABB3EBC001D9D21E14 /* Pods_Noutore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +152,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		813DAD6E1D557748004FFCB6 /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				813DAD6F1D557748004FFCB6 /* Default-568h@2x.png */,
+				813DAD701D557748004FFCB6 /* Default-667h@2x.png */,
+				813DAD711D557748004FFCB6 /* Default-736h@3x.png */,
+				813DAD721D557748004FFCB6 /* Default.png */,
+				813DAD731D557748004FFCB6 /* Default@2x.png */,
+			);
+			path = Defaults;
+			sourceTree = "<group>";
+		};
 		81E8CDEB1D52E9EF00A3DE01 = {
 			isa = PBXGroup;
 			children = (
+				813DAD791D557EB4004FFCB6 /* Social.framework */,
 				81E8CDF61D52E9F000A3DE01 /* Noutore */,
 				81E8CE0E1D52E9F000A3DE01 /* NoutoreTests */,
 				81E8CE191D52E9F000A3DE01 /* NoutoreUITests */,
 				81E8CDF51D52E9F000A3DE01 /* Products */,
+				A73E15105B53A938859CE968 /* Pods */,
+				F95A244E40F2A04E2F9D9367 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +190,39 @@
 		81E8CDF61D52E9F000A3DE01 /* Noutore */ = {
 			isa = PBXGroup;
 			children = (
+				813DAD6E1D557748004FFCB6 /* Defaults */,
 				81E8CDF71D52E9F000A3DE01 /* AppDelegate.swift */,
 				81E8CDF91D52E9F000A3DE01 /* ViewController.swift */,
+				81E8CE481D5323E400A3DE01 /* PlayGameViewController.swift */,
+				818F49B61D544D590083C63D /* ScoreViewController.swift */,
+				8163925A1D55C5A900A8A9F7 /* RankingViewController.swift */,
+				81B5D4541D571B500042DD53 /* Score.swift */,
+				8163925C1D56D72800A8A9F7 /* RankingTableViewCell.swift */,
+				816392581D55AD5B00A8A9F7 /* GoogleService-Info.plist */,
+				818F49DC1D555AB00083C63D /* hub_startScreen.png */,
+				818F49E21D55600C0083C63D /* hub_startButton.png */,
+				818F49E41D55602B0083C63D /* hub_playgamescreen.png */,
+				818F49E71D5562F30083C63D /* hub_resultScreen.png */,
+				813DAD661D556B38004FFCB6 /* hub_retryButton.png */,
+				813DAD671D556B38004FFCB6 /* hub_backButton.png */,
+				81B5D4301D56F7D00042DD53 /* hub_rankingButton.png */,
+				81B5D4311D56F7D10042DD53 /* hub_shareButton.png */,
+				81B5D4371D5708250042DD53 /* 0000.png */,
+				81B5D4341D5708250042DD53 /* 1100.png */,
+				81B5D4351D5708250042DD53 /* 0100.png */,
+				81B5D4361D5708250042DD53 /* 1000.png */,
+				81B5D4381D5708250042DD53 /* 1101.png */,
+				81B5D4391D5708250042DD53 /* 0101.png */,
+				81B5D43A1D5708250042DD53 /* 1001.png */,
+				81B5D43B1D5708250042DD53 /* 0001.png */,
+				81B5D43C1D5708250042DD53 /* 1110.png */,
+				81B5D43D1D5708250042DD53 /* 0110.png */,
+				81B5D43E1D5708250042DD53 /* 1010.png */,
+				81B5D43F1D5708250042DD53 /* 0010.png */,
+				81B5D4401D5708250042DD53 /* 1111.png */,
+				81B5D4411D5708250042DD53 /* 0111.png */,
+				81B5D4421D5708250042DD53 /* 1011.png */,
+				81B5D4431D5708250042DD53 /* 0011.png */,
 				81E8CDFB1D52E9F000A3DE01 /* Main.storyboard */,
 				81E8CE011D52E9F000A3DE01 /* Assets.xcassets */,
 				81E8CE031D52E9F000A3DE01 /* LaunchScreen.storyboard */,
@@ -128,6 +250,23 @@
 			path = NoutoreUITests;
 			sourceTree = "<group>";
 		};
+		A73E15105B53A938859CE968 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51AA684329DD77994D03C2D6 /* Pods-Noutore.debug.xcconfig */,
+				062E0A0C692BF4711D38FE55 /* Pods-Noutore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F95A244E40F2A04E2F9D9367 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6A31A65D17A7E8FAAE9AE6F /* Pods_Noutore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +274,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81E8CE1F1D52E9F000A3DE01 /* Build configuration list for PBXNativeTarget "Noutore" */;
 			buildPhases = (
+				831B43B2ED4F77D27632371E /* [CP] Check Pods Manifest.lock */,
 				81E8CDF01D52E9F000A3DE01 /* Sources */,
 				81E8CDF11D52E9F000A3DE01 /* Frameworks */,
 				81E8CDF21D52E9F000A3DE01 /* Resources */,
+				DFC59E0C6922779D878D04FE /* [CP] Embed Pods Frameworks */,
+				C39F5C986E1D35FA1A28C5E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +338,7 @@
 				TargetAttributes = {
 					81E8CDF31D52E9F000A3DE01 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W2T75EV2YE;
 					};
 					81E8CE0A1D52E9F000A3DE01 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -232,9 +375,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81B5D44D1D5708250042DD53 /* 0110.png in Resources */,
+				81B5D4481D5708250042DD53 /* 1101.png in Resources */,
+				81B5D4471D5708250042DD53 /* 0000.png in Resources */,
+				818F49E51D55602B0083C63D /* hub_playgamescreen.png in Resources */,
+				81B5D4511D5708250042DD53 /* 0111.png in Resources */,
+				813DAD771D557748004FFCB6 /* Default.png in Resources */,
+				813DAD741D557748004FFCB6 /* Default-568h@2x.png in Resources */,
+				818F49E91D5562F30083C63D /* hub_resultScreen.png in Resources */,
+				816392591D55AD5B00A8A9F7 /* GoogleService-Info.plist in Resources */,
+				81B5D4331D56F7D10042DD53 /* hub_shareButton.png in Resources */,
+				81B5D44E1D5708250042DD53 /* 1010.png in Resources */,
 				81E8CE051D52E9F000A3DE01 /* LaunchScreen.storyboard in Resources */,
+				81B5D4321D56F7D10042DD53 /* hub_rankingButton.png in Resources */,
 				81E8CE021D52E9F000A3DE01 /* Assets.xcassets in Resources */,
+				81B5D4441D5708250042DD53 /* 1100.png in Resources */,
+				81B5D4451D5708250042DD53 /* 0100.png in Resources */,
+				813DAD691D556B38004FFCB6 /* hub_backButton.png in Resources */,
+				81B5D4461D5708250042DD53 /* 1000.png in Resources */,
+				81B5D4531D5708250042DD53 /* 0011.png in Resources */,
+				81B5D44F1D5708250042DD53 /* 0010.png in Resources */,
+				813DAD781D557748004FFCB6 /* Default@2x.png in Resources */,
+				813DAD761D557748004FFCB6 /* Default-736h@3x.png in Resources */,
+				81B5D44B1D5708250042DD53 /* 0001.png in Resources */,
+				81B5D44C1D5708250042DD53 /* 1110.png in Resources */,
+				818F49E31D55600C0083C63D /* hub_startButton.png in Resources */,
+				818F49DE1D555AB00083C63D /* hub_startScreen.png in Resources */,
+				81B5D4491D5708250042DD53 /* 0101.png in Resources */,
+				813DAD751D557748004FFCB6 /* Default-667h@2x.png in Resources */,
+				81B5D44A1D5708250042DD53 /* 1001.png in Resources */,
+				81B5D4501D5708250042DD53 /* 1111.png in Resources */,
 				81E8CDFD1D52E9F000A3DE01 /* Main.storyboard in Resources */,
+				81B5D4521D5708250042DD53 /* 1011.png in Resources */,
+				813DAD681D556B38004FFCB6 /* hub_retryButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +427,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		831B43B2ED4F77D27632371E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C39F5C986E1D35FA1A28C5E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Noutore/Pods-Noutore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFC59E0C6922779D878D04FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Noutore/Pods-Noutore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		81E8CDF01D52E9F000A3DE01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				81E8CDFA1D52E9F000A3DE01 /* ViewController.swift in Sources */,
+				8163925B1D55C5A900A8A9F7 /* RankingViewController.swift in Sources */,
+				81B5D4551D571B500042DD53 /* Score.swift in Sources */,
 				81E8CDF81D52E9F000A3DE01 /* AppDelegate.swift in Sources */,
+				8163925D1D56D72800A8A9F7 /* RankingTableViewCell.swift in Sources */,
+				818F49B71D544D590083C63D /* ScoreViewController.swift in Sources */,
 				81E8CE001D52E9F000A3DE01 /* Noutore.xcdatamodeld in Sources */,
+				81E8CE491D5323E400A3DE01 /* PlayGameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,23 +627,31 @@
 		};
 		81E8CE201D52E9F000A3DE01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51AA684329DD77994D03C2D6 /* Pods-Noutore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Noutore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = come.litech.Noutore;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.sakine.Hub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		81E8CE211D52E9F000A3DE01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 062E0A0C692BF4711D38FE55 /* Pods-Noutore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Noutore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = come.litech.Noutore;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.sakine.Hub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -486,6 +720,7 @@
 				81E8CE211D52E9F000A3DE01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81E8CE221D52E9F000A3DE01 /* Build configuration list for PBXNativeTarget "NoutoreTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +729,7 @@
 				81E8CE241D52E9F000A3DE01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81E8CE251D52E9F000A3DE01 /* Build configuration list for PBXNativeTarget "NoutoreUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +738,7 @@
 				81E8CE271D52E9F000A3DE01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
