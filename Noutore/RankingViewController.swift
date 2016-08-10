@@ -21,13 +21,13 @@ class RankingViewController: UIViewController, UITableViewDelegate, UITableViewD
         //TODO: ここでスコア順にソート
         //https://firebase.google.com/docs/database/ios/retrieve-data ここ参照
         
-        ref.queryOrderedByChild("point").observeEventType(.ChildAdded, withBlock: { snapshot in
+        ref.queryOrderedByChild("point").queryLimitedToLast(50).observeEventType(.ChildAdded, withBlock: { snapshot in
             if let point = snapshot.value!.objectForKey("point") as? Int,
                 username = snapshot.value!.objectForKey("username") as? String,
                 time = snapshot.value!.objectForKey("time") as? String {
                 //Scoreのインスタンス生成
                 let score = Score(point: point, username: username, time: time)
-                self.scores.append(score)
+                self.scores.insert(score, atIndex: 0)
                 self.tableView.reloadData()
             }
         })
