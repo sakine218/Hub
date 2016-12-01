@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		810E00291DE5B6A60006A687 /* walkthrow3.png in Resources */ = {isa = PBXBuildFile; fileRef = 810E00251DE5B6A60006A687 /* walkthrow3.png */; };
+		810E002A1DE5B6A60006A687 /* walkthrow2.png in Resources */ = {isa = PBXBuildFile; fileRef = 810E00261DE5B6A60006A687 /* walkthrow2.png */; };
+		810E002B1DE5B6A60006A687 /* walkthrow1.png in Resources */ = {isa = PBXBuildFile; fileRef = 810E00271DE5B6A60006A687 /* walkthrow1.png */; };
+		810E002C1DE5B6A60006A687 /* walkthrow0.png in Resources */ = {isa = PBXBuildFile; fileRef = 810E00281DE5B6A60006A687 /* walkthrow0.png */; };
 		813DAD741D557748004FFCB6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 813DAD6F1D557748004FFCB6 /* Default-568h@2x.png */; };
 		813DAD751D557748004FFCB6 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 813DAD701D557748004FFCB6 /* Default-667h@2x.png */; };
 		813DAD761D557748004FFCB6 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 813DAD711D557748004FFCB6 /* Default-736h@3x.png */; };
@@ -50,7 +54,10 @@
 		81F578D51D5B2D7E005243DA /* hub_retryButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F578CF1D5B2D7E005243DA /* hub_retryButton.png */; };
 		81F578D61D5B2D7E005243DA /* hub_startButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F578D01D5B2D7E005243DA /* hub_startButton.png */; };
 		81F578D71D5B2D7E005243DA /* hub_startScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F578D11D5B2D7E005243DA /* hub_startScreen.png */; };
+		81F578DB1D5B35EE005243DA /* hub_infoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F578DA1D5B35EE005243DA /* hub_infoButton.png */; };
 		8F8000ABB3EBC001D9D21E14 /* Pods_Noutore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6A31A65D17A7E8FAAE9AE6F /* Pods_Noutore.framework */; };
+		C8413385D1336B9F462738D3 /* Pods_NoutoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F792F230A469A410FCCAEF3 /* Pods_NoutoreUITests.framework */; };
+		FB5AB191A10DAE4A1C7BB6AD /* Pods_NoutoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B17F006F1317578387C0C0 /* Pods_NoutoreTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,8 +78,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03E59FD9546454999B13F273 /* Pods-NoutoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoutoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NoutoreTests/Pods-NoutoreTests.release.xcconfig"; sourceTree = "<group>"; };
 		062E0A0C692BF4711D38FE55 /* Pods-Noutore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noutore.release.xcconfig"; path = "Pods/Target Support Files/Pods-Noutore/Pods-Noutore.release.xcconfig"; sourceTree = "<group>"; };
+		1E40E3B825E133D0B08ACDAE /* Pods-NoutoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoutoreUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NoutoreUITests/Pods-NoutoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B8F278FF58BA1EDBE5BC469 /* Pods-NoutoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoutoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NoutoreTests/Pods-NoutoreTests.debug.xcconfig"; sourceTree = "<group>"; };
 		51AA684329DD77994D03C2D6 /* Pods-Noutore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noutore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Noutore/Pods-Noutore.debug.xcconfig"; sourceTree = "<group>"; };
+		810E00251DE5B6A60006A687 /* walkthrow3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = walkthrow3.png; path = ../../HubImages/walkthrow3.png; sourceTree = "<group>"; };
+		810E00261DE5B6A60006A687 /* walkthrow2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = walkthrow2.png; path = ../../HubImages/walkthrow2.png; sourceTree = "<group>"; };
+		810E00271DE5B6A60006A687 /* walkthrow1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = walkthrow1.png; path = ../../HubImages/walkthrow1.png; sourceTree = "<group>"; };
+		810E00281DE5B6A60006A687 /* walkthrow0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = walkthrow0.png; path = ../../HubImages/walkthrow0.png; sourceTree = "<group>"; };
 		813DAD6F1D557748004FFCB6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		813DAD701D557748004FFCB6 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
 		813DAD711D557748004FFCB6 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
@@ -123,6 +137,10 @@
 		81F578CF1D5B2D7E005243DA /* hub_retryButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hub_retryButton.png; sourceTree = "<group>"; };
 		81F578D01D5B2D7E005243DA /* hub_startButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hub_startButton.png; sourceTree = "<group>"; };
 		81F578D11D5B2D7E005243DA /* hub_startScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hub_startScreen.png; sourceTree = "<group>"; };
+		81F578DA1D5B35EE005243DA /* hub_infoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hub_infoButton.png; sourceTree = "<group>"; };
+		8F792F230A469A410FCCAEF3 /* Pods_NoutoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoutoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B17F006F1317578387C0C0 /* Pods_NoutoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoutoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27AEB7A2C4BDEC9CF02131B /* Pods-NoutoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoutoreUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NoutoreUITests/Pods-NoutoreUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D6A31A65D17A7E8FAAE9AE6F /* Pods_Noutore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Noutore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -139,6 +157,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5AB191A10DAE4A1C7BB6AD /* Pods_NoutoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +165,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8413385D1336B9F462738D3 /* Pods_NoutoreUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +227,7 @@
 				81F578D11D5B2D7E005243DA /* hub_startScreen.png */,
 				81F578C81D5B2C4F005243DA /* hub_rankingButton.png */,
 				81F578C91D5B2C4F005243DA /* hub_shareButton.png */,
+				81F578DA1D5B35EE005243DA /* hub_infoButton.png */,
 				81F578A81D5B2C18005243DA /* 1100.png */,
 				81F578A91D5B2C18005243DA /* 0100.png */,
 				81F578AA1D5B2C18005243DA /* 1000.png */,
@@ -223,6 +244,10 @@
 				81F578B51D5B2C18005243DA /* 0111.png */,
 				81F578B61D5B2C18005243DA /* 1011.png */,
 				81F578B71D5B2C18005243DA /* 0011.png */,
+				810E00251DE5B6A60006A687 /* walkthrow3.png */,
+				810E00261DE5B6A60006A687 /* walkthrow2.png */,
+				810E00271DE5B6A60006A687 /* walkthrow1.png */,
+				810E00281DE5B6A60006A687 /* walkthrow0.png */,
 				81E8CDFB1D52E9F000A3DE01 /* Main.storyboard */,
 				81E8CE011D52E9F000A3DE01 /* Assets.xcassets */,
 				81E8CE031D52E9F000A3DE01 /* LaunchScreen.storyboard */,
@@ -255,6 +280,10 @@
 			children = (
 				51AA684329DD77994D03C2D6 /* Pods-Noutore.debug.xcconfig */,
 				062E0A0C692BF4711D38FE55 /* Pods-Noutore.release.xcconfig */,
+				4B8F278FF58BA1EDBE5BC469 /* Pods-NoutoreTests.debug.xcconfig */,
+				03E59FD9546454999B13F273 /* Pods-NoutoreTests.release.xcconfig */,
+				1E40E3B825E133D0B08ACDAE /* Pods-NoutoreUITests.debug.xcconfig */,
+				D27AEB7A2C4BDEC9CF02131B /* Pods-NoutoreUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -263,6 +292,8 @@
 			isa = PBXGroup;
 			children = (
 				D6A31A65D17A7E8FAAE9AE6F /* Pods_Noutore.framework */,
+				C9B17F006F1317578387C0C0 /* Pods_NoutoreTests.framework */,
+				8F792F230A469A410FCCAEF3 /* Pods_NoutoreUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -294,9 +325,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81E8CE221D52E9F000A3DE01 /* Build configuration list for PBXNativeTarget "NoutoreTests" */;
 			buildPhases = (
+				F77DAD313921A91BFA038C8A /* [CP] Check Pods Manifest.lock */,
 				81E8CE071D52E9F000A3DE01 /* Sources */,
 				81E8CE081D52E9F000A3DE01 /* Frameworks */,
 				81E8CE091D52E9F000A3DE01 /* Resources */,
+				116E6D36D2641A29E78C5824 /* [CP] Embed Pods Frameworks */,
+				9138035F242B1D51F6BEA649 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -312,9 +346,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81E8CE251D52E9F000A3DE01 /* Build configuration list for PBXNativeTarget "NoutoreUITests" */;
 			buildPhases = (
+				0DFE4A01513452C9FB922A71 /* [CP] Check Pods Manifest.lock */,
 				81E8CE121D52E9F000A3DE01 /* Sources */,
 				81E8CE131D52E9F000A3DE01 /* Frameworks */,
 				81E8CE141D52E9F000A3DE01 /* Resources */,
+				6F1632EB0AAE71FA958146D1 /* [CP] Embed Pods Frameworks */,
+				CDA6555DF7D66E9DC039C744 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -339,13 +376,16 @@
 					81E8CDF31D52E9F000A3DE01 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = W2T75EV2YE;
+						LastSwiftMigration = 0810;
 					};
 					81E8CE0A1D52E9F000A3DE01 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 						TestTargetID = 81E8CDF31D52E9F000A3DE01;
 					};
 					81E8CE151D52E9F000A3DE01 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 						TestTargetID = 81E8CDF31D52E9F000A3DE01;
 					};
 				};
@@ -379,11 +419,13 @@
 				81F578BA1D5B2C18005243DA /* 1000.png in Resources */,
 				81F578BC1D5B2C18005243DA /* 1101.png in Resources */,
 				813DAD771D557748004FFCB6 /* Default.png in Resources */,
+				810E002C1DE5B6A60006A687 /* walkthrow0.png in Resources */,
 				81F578D31D5B2D7E005243DA /* hub_playgamescreen.png in Resources */,
 				81F578D21D5B2D7E005243DA /* hub_backButton.png in Resources */,
 				813DAD741D557748004FFCB6 /* Default-568h@2x.png in Resources */,
 				81F578D51D5B2D7E005243DA /* hub_retryButton.png in Resources */,
 				81F5789B1D5B2B88005243DA /* GoogleService-Info.plist in Resources */,
+				81F578DB1D5B35EE005243DA /* hub_infoButton.png in Resources */,
 				81F578C01D5B2C18005243DA /* 1110.png in Resources */,
 				81F578BD1D5B2C18005243DA /* 0101.png in Resources */,
 				81F578CB1D5B2C4F005243DA /* hub_shareButton.png in Resources */,
@@ -397,12 +439,15 @@
 				81E8CE021D52E9F000A3DE01 /* Assets.xcassets in Resources */,
 				81F578C41D5B2C18005243DA /* 1111.png in Resources */,
 				81F578BB1D5B2C18005243DA /* 0000.png in Resources */,
+				810E002B1DE5B6A60006A687 /* walkthrow1.png in Resources */,
 				813DAD781D557748004FFCB6 /* Default@2x.png in Resources */,
 				81F578C11D5B2C18005243DA /* 0110.png in Resources */,
 				813DAD761D557748004FFCB6 /* Default-736h@3x.png in Resources */,
 				81F578D41D5B2D7E005243DA /* hub_resultScreen.png in Resources */,
 				813DAD751D557748004FFCB6 /* Default-667h@2x.png in Resources */,
 				81F578B81D5B2C18005243DA /* 1100.png in Resources */,
+				810E00291DE5B6A60006A687 /* walkthrow3.png in Resources */,
+				810E002A1DE5B6A60006A687 /* walkthrow2.png in Resources */,
 				81F578C51D5B2C18005243DA /* 0111.png in Resources */,
 				81F578BF1D5B2C18005243DA /* 0001.png in Resources */,
 				81F578C71D5B2C18005243DA /* 0011.png in Resources */,
@@ -428,6 +473,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0DFE4A01513452C9FB922A71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		116E6D36D2641A29E78C5824 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoutoreTests/Pods-NoutoreTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F1632EB0AAE71FA958146D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoutoreUITests/Pods-NoutoreUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		831B43B2ED4F77D27632371E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -440,7 +530,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9138035F242B1D51F6BEA649 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoutoreTests/Pods-NoutoreTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C39F5C986E1D35FA1A28C5E2 /* [CP] Copy Pods Resources */ = {
@@ -458,6 +563,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Noutore/Pods-Noutore-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		CDA6555DF7D66E9DC039C744 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoutoreUITests/Pods-NoutoreUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		DFC59E0C6922779D878D04FE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -471,6 +591,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Noutore/Pods-Noutore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F77DAD313921A91BFA038C8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -579,9 +714,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "a1a5f5f8-553e-4beb-94e9-c4868c7a76c9";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -618,8 +754,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "a1a5f5f8-553e-4beb-94e9-c4868c7a76c9";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -632,11 +769,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = W2T75EV2YE;
 				INFOPLIST_FILE = Noutore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.sakine.Hub;
+				PRODUCT_BUNDLE_IDENTIFIER = sakine.hub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -647,56 +788,68 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = W2T75EV2YE;
 				INFOPLIST_FILE = Noutore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.sakine.Hub;
+				PRODUCT_BUNDLE_IDENTIFIER = sakine.hub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		81E8CE231D52E9F000A3DE01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B8F278FF58BA1EDBE5BC469 /* Pods-NoutoreTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = NoutoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = come.litech.NoutoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noutore.app/Noutore";
 			};
 			name = Debug;
 		};
 		81E8CE241D52E9F000A3DE01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E59FD9546454999B13F273 /* Pods-NoutoreTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = NoutoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = come.litech.NoutoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noutore.app/Noutore";
 			};
 			name = Release;
 		};
 		81E8CE261D52E9F000A3DE01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E40E3B825E133D0B08ACDAE /* Pods-NoutoreUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = NoutoreUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = come.litech.NoutoreUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Noutore;
 			};
 			name = Debug;
 		};
 		81E8CE271D52E9F000A3DE01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D27AEB7A2C4BDEC9CF02131B /* Pods-NoutoreUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = NoutoreUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = come.litech.NoutoreUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Noutore;
 			};
 			name = Release;

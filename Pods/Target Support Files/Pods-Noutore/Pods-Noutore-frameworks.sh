@@ -82,3 +82,14 @@ strip_invalid_archs() {
   fi
 }
 
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/EAIntroView/EAIntroView.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/EARestrictedScrollView/EARestrictedScrollView.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/GoogleToolboxForMac/GoogleToolboxForMac.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/EAIntroView/EAIntroView.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/EARestrictedScrollView/EARestrictedScrollView.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/GoogleToolboxForMac/GoogleToolboxForMac.framework"
+fi

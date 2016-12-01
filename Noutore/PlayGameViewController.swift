@@ -11,12 +11,26 @@ class PlayGameViewController: UIViewController {
     var answerNumber = 0
     var point = 0
     var timecount = 30
+    var timer: Timer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         reloadQuiz()
-        NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: #selector(PlayGameViewController.updateTimer(_:)), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(PlayGameViewController.updateTimer(_:)), userInfo: nil, repeats: true)
+        timecount = 30
+        timerLabel.text = String(timecount)
+        point = 0
+        pointLabel.text = String(point)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        timer.invalidate()
     }
     
     override func didReceiveMemoryWarning() {
@@ -24,31 +38,31 @@ class PlayGameViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func updateTimer(timer: NSTimer){
+    func updateTimer(_ timer: Timer){
         timecount -= 1
         timerLabel.text = String(timecount)
         
         if timecount <= 0 {
             timer.invalidate()
-            performSegueWithIdentifier("toScore", sender: nil)
+            performSegue(withIdentifier: "toScore", sender: nil)
         }
         
     }
     
     
-    @IBAction func selectButton(sender: UIButton) {
+    @IBAction func selectButton(_ sender: UIButton) {
         if sender.tag == answerNumber{
             reloadQuiz()
             point += 1
             pointLabel.text = String(point)
         } else {
-            performSegueWithIdentifier("toScore", sender: sender)
+            performSegue(withIdentifier: "toScore", sender: sender)
         }
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "toScore" {
-            let SVController: ScoreViewController = segue.destinationViewController as! ScoreViewController
+            let SVController: ScoreViewController = segue.destination as! ScoreViewController
             SVController.score = point
         }
     }
@@ -75,12 +89,12 @@ class PlayGameViewController: UIViewController {
         let answer = getAnswer(quiz)
         let answerImage = UIImage(named: getImageName(answer))
         answerNumber = Int(arc4random_uniform(9))
-        buttons[answerNumber].setBackgroundImage(answerImage!, forState: .Normal)
+        buttons[answerNumber].setBackgroundImage(answerImage!, for: UIControlState())
         print(answer)
         print(answerNumber)
         
         var choices: [[Int]] = []
-        for (index,button) in buttons.enumerate() {
+        for (index,button) in buttons.enumerated() {
             button.adjustsImageWhenDisabled = false
             if index != answerNumber{
             var choice = getArray()
@@ -89,7 +103,7 @@ class PlayGameViewController: UIViewController {
                 }
                 choices.append(choice)
                 let choiceImage = UIImage(named: getImageName(choice))
-                button.setBackgroundImage(choiceImage, forState: .Normal)
+                button.setBackgroundImage(choiceImage, for: UIControlState())
                 print (choice)
             }
         }
@@ -97,7 +111,7 @@ class PlayGameViewController: UIViewController {
     }
     
     //配列の要素検索
-    func indexOf(array: [[Int]], element: [Int]) -> Bool{
+    func indexOf(_ array: [[Int]], element: [Int]) -> Bool{
         for a in array {
             if a == element {
                 return true
@@ -107,12 +121,12 @@ class PlayGameViewController: UIViewController {
     }
     
     //[Int]をつなげてStringにして返す
-    func getImageName(array: [Int]) -> String {
-        return array.map { String($0) }.reduce("", combine: + )
+    func getImageName(_ array: [Int]) -> String {
+        return array.map { String($0) }.reduce("", + )
     }
     
     //[Int]を反対にして返す
-    func getAnswer(quiz: [Int]) -> [Int] {
+    func getAnswer(_ quiz: [Int]) -> [Int] {
         var answer: [Int] = []
         quiz.forEach {
             if $0 == 0 {

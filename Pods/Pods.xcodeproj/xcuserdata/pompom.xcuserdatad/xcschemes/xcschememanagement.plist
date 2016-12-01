@@ -4,7 +4,32 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>EAIntroView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>EARestrictedScrollView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>GoogleToolboxForMac.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Noutore.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-NoutoreTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-NoutoreUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -12,7 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1AAC238479BE0C738DE1FE6E35990EBB</key>
+		<key>00103D6C821BE85971C563025527BA5D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0F28A318A2532DEE78FEFAE0F029AB99</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>58AAD2C9E898747F2F4ABF348E6325F2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6AA6E8A05D435C1C0F1CB0E3A5C46ACD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>822DA31A6A34C7EF41E1EC7A5EF8FC2F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>97DC266D547ADA95743DE69520E26D97</key>
 		<dict>
 			<key>primary</key>
 			<true/>

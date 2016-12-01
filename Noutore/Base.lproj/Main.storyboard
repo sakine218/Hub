@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -10,7 +14,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Noutore" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hub_startScreen.png" id="nFx-rv-dRl">
@@ -26,11 +30,19 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="Qpn-IN-YLB" kind="modal" id="10u-28-EjU"/>
+                                    <segue destination="Oyy-GZ-lZH" kind="modal" id="10u-28-EjU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="IFZ-h2-eu2">
+                                <rect key="frame" x="265" y="20" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="hub_infoButton.png"/>
+                                <connections>
+                                    <action selector="selectButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OH1-O1-m3w"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="Omu-RN-Jt7"/>
                     <connections>
@@ -39,14 +51,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="162" y="366"/>
+            <point key="canvasLocation" x="175" y="366"/>
         </scene>
         <!--Play Game View Controller-->
         <scene sceneID="buU-QE-T99">
             <objects>
                 <viewController id="Qpn-IN-YLB" customClass="PlayGameViewController" customModule="Noutore" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RKN-QR-M6x">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hub_playgamescreen.png" id="aRV-1o-Ukd">
@@ -57,7 +69,7 @@
                                 <rect key="frame" x="22" y="244" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="highlighted">
-                                    <color key="titleColor" red="0.1834870371406733" green="0.42788165808834655" blue="0.73633845899470907" alpha="0.0" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.1834870371406733" green="0.42788165808834655" blue="0.73633845899470907" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="selectButton:" destination="Qpn-IN-YLB" eventType="touchDown" id="auz-Xn-PNV"/>
@@ -67,7 +79,7 @@
                                 <rect key="frame" x="120" y="244" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="highlighted">
-                                    <color key="titleColor" red="0.1834870371406733" green="0.42788165808834655" blue="0.73633845899470907" alpha="0.0" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.1834870371406733" green="0.42788165808834655" blue="0.73633845899470907" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="selectButton:" destination="Qpn-IN-YLB" eventType="touchDown" id="MWH-pv-yyr"/>
@@ -77,7 +89,7 @@
                                 <rect key="frame" x="217" y="244" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="highlighted">
-                                    <color key="titleColor" red="0.1834870371406733" green="0.42788165808834655" blue="0.73633845899470907" alpha="0.0" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.1834870371406733" green="0.42788165808834655" blue="0.73633845899470907" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="selectButton:" destination="Qpn-IN-YLB" eventType="touchDown" id="dqP-QH-Kgk"/>
@@ -87,7 +99,7 @@
                                 <rect key="frame" x="20" y="344" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="highlighted">
-                                    <color key="titleColor" red="0.1834870371406733" green="0.42788165808834655" blue="0.73633845899470907" alpha="0.0" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.1834870371406733" green="0.42788165808834655" blue="0.73633845899470907" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="selectButton:" destination="Qpn-IN-YLB" eventType="touchDown" id="TtG-Dg-YlM"/>
@@ -97,7 +109,7 @@
                                 <rect key="frame" x="120" y="344" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="highlighted">
-                                    <color key="titleColor" red="0.1834870371406733" green="0.42788165808834655" blue="0.73633845899470907" alpha="0.0" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.1834870371406733" green="0.42788165808834655" blue="0.73633845899470907" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="selectButton:" destination="Qpn-IN-YLB" eventType="touchDown" id="rFk-QY-xk0"/>
@@ -107,7 +119,7 @@
                                 <rect key="frame" x="217" y="344" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="highlighted">
-                                    <color key="titleColor" red="0.1834870371406733" green="0.42788165808834655" blue="0.73633845899470907" alpha="0.0" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.1834870371406733" green="0.42788165808834655" blue="0.73633845899470907" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="selectButton:" destination="Qpn-IN-YLB" eventType="touchDown" id="M2a-nB-vOh"/>
@@ -117,7 +129,7 @@
                                 <rect key="frame" x="120" y="446" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="highlighted">
-                                    <color key="titleColor" red="0.1834870371406733" green="0.42788165808834655" blue="0.73633845899470907" alpha="0.0" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.1834870371406733" green="0.42788165808834655" blue="0.73633845899470907" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="selectButton:" destination="Qpn-IN-YLB" eventType="touchDown" id="lH6-If-d5r"/>
@@ -127,7 +139,7 @@
                                 <rect key="frame" x="217" y="446" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="highlighted">
-                                    <color key="titleColor" red="0.1834870371406733" green="0.42788165808834655" blue="0.73633845899470907" alpha="0.0" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.1834870371406733" green="0.42788165808834655" blue="0.73633845899470907" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="selectButton:" destination="Qpn-IN-YLB" eventType="touchDown" id="hJF-yK-ljp"/>
@@ -141,28 +153,28 @@
                                 <rect key="frame" x="223" y="53" width="68" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dOT-BK-9XJ">
                                 <rect key="frame" x="72" y="54" width="45" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="Gjs-Sq-543">
                                 <rect key="frame" x="22" y="446" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="highlighted">
-                                    <color key="titleColor" red="0.1834870371406733" green="0.42788165808834655" blue="0.73633845899470907" alpha="0.0" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.1834870371406733" green="0.42788165808834655" blue="0.73633845899470907" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="selectButton:" destination="Qpn-IN-YLB" eventType="touchDown" id="sQr-kX-foZ"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="YuT-l7-ugb"/>
                     <connections>
@@ -178,19 +190,19 @@
                         <outletCollection property="buttons" destination="Gjs-Sq-543" collectionClass="NSMutableArray" id="eHO-Hd-zPr"/>
                         <outletCollection property="buttons" destination="biY-cn-vW9" collectionClass="NSMutableArray" id="ppV-cj-x4h"/>
                         <outletCollection property="buttons" destination="TUW-k4-Sbb" collectionClass="NSMutableArray" id="eag-tt-AGy"/>
-                        <segue destination="Fqg-EF-q2l" kind="modal" identifier="toScore" id="7ug-Tp-lGo"/>
+                        <segue destination="Fqg-EF-q2l" kind="push" identifier="toScore" id="7ug-Tp-lGo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QJX-Ot-Qp3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="562" y="366"/>
+            <point key="canvasLocation" x="1020" y="366"/>
         </scene>
         <!--Score View Controller-->
         <scene sceneID="JFK-bi-vx2">
             <objects>
                 <viewController storyboardIdentifier="score" id="Fqg-EF-q2l" customClass="ScoreViewController" customModule="Noutore" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tIe-hF-gwl">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hub_resultScreen.png" id="yri-k0-w90">
@@ -201,7 +213,7 @@
                                 <rect key="frame" x="106" y="156" width="109" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xSr-FZ-Bg9">
@@ -217,7 +229,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="hub_retryButton.png"/>
                                 <connections>
-                                    <segue destination="Qpn-IN-YLB" kind="modal" id="svj-JE-9Rt"/>
+                                    <action selector="retryButton" destination="Fqg-EF-q2l" eventType="touchUpInside" id="jK8-df-g5T"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="4kU-td-DgE">
@@ -237,57 +249,57 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="In7-bs-TcI"/>
                     <connections>
                         <outlet property="scoreLabel" destination="Ys7-r1-CPq" id="q4A-Dr-0Ii"/>
-                        <segue destination="3SL-Ej-KHZ" kind="modal" identifier="toVC" id="TW4-p8-bqm"/>
+                        <segue destination="3SL-Ej-KHZ" kind="push" identifier="toVC" id="TW4-p8-bqm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ejV-J2-GoN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="981" y="366"/>
+            <point key="canvasLocation" x="1513" y="366"/>
         </scene>
         <!--Ranking View Controller-->
         <scene sceneID="UMT-zn-bbR">
             <objects>
                 <viewController storyboardIdentifier="unking" id="3SL-Ej-KHZ" customClass="RankingViewController" customModule="Noutore" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1H8-zG-wOw">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="40" sectionHeaderHeight="28" sectionFooterHeight="28" id="ZzG-7E-lIC">
                                 <rect key="frame" x="0.0" y="62" width="320" height="506"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RankingCell" id="cbO-4V-1pr" customClass="RankingTableViewCell" customModule="Noutore" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="320" height="40"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cbO-4V-1pr" id="19t-dG-oZD">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="39"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0u8-yk-CCa">
                                                     <rect key="frame" x="89" y="9" width="97" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FH1-Pq-jxW">
                                                     <rect key="frame" x="221" y="9" width="73" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YMS-zC-54W">
                                                     <rect key="frame" x="25" y="9" width="42" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -307,25 +319,46 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Pmx-4q-Ldh">
                                 <rect key="frame" x="20" y="20" width="60" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="＜もどる"/>
+                                <state key="normal" title="＜Back"/>
                                 <connections>
                                     <action selector="backButton" destination="3SL-Ej-KHZ" eventType="touchUpInside" id="NUP-rA-WWu"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="9pd-NN-WgP"/>
                     <connections>
                         <outlet property="tableView" destination="ZzG-7E-lIC" id="dgN-yQ-ZZn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DaS-rY-IqF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1386" y="366"/>
+            <point key="canvasLocation" x="1918" y="366"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="FjV-T0-jtm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Oyy-GZ-lZH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="sei-Kn-OPt"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sNr-NV-rIA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Qpn-IN-YLB" kind="relationship" relationship="rootViewController" id="hii-qs-iGo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xj2-a5-2K0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="562" y="366"/>
         </scene>
     </scenes>
     <resources>
         <image name="hub_backButton.png" width="480" height="96"/>
+        <image name="hub_infoButton.png" width="240" height="240"/>
         <image name="hub_playgamescreen.png" width="750" height="1334"/>
         <image name="hub_rankingButton.png" width="240" height="240"/>
         <image name="hub_resultScreen.png" width="750" height="1334"/>
@@ -334,7 +367,9 @@
         <image name="hub_startButton.png" width="750" height="1334"/>
         <image name="hub_startScreen.png" width="750" height="1334"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="svj-JE-9Rt"/>
-    </inferredMetricsTieBreakers>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
 </document>

@@ -13,6 +13,13 @@ class RankingViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     var scores: [Score] = []
     
+    //STEP.1 変数を定義
+    var memoryDate: Date!
+    
+    var idString: String!
+    
+    let defaults = UserDefaults.standard
+
     @IBOutlet var tableView: UITableView!
     
     override func viewDidLoad() {
@@ -21,16 +28,20 @@ class RankingViewController: UIViewController, UITableViewDelegate, UITableViewD
         //TODO: ここでスコア順にソート
         //https://firebase.google.com/docs/database/ios/retrieve-data ここ参照
         
-        ref.queryOrderedByChild("point").queryLimitedToLast(50).observeEventType(.ChildAdded, withBlock: { snapshot in
-            if let point = snapshot.value!.objectForKey("point") as? Int,
-                username = snapshot.value!.objectForKey("username") as? String,
-                time = snapshot.value!.objectForKey("time") as? String {
+        ref.queryOrdered(byChild: "point").queryLimited(toLast: 50).observe(.childAdded, with: { snapshot in
+            if let point = (snapshot.value! as AnyObject).object(forKey: "point") as? Int,
+                let username = (snapshot.value! as AnyObject).object(forKey: "username") as? String,
+                let time = (snapshot.value! as AnyObject).object(forKey: "time") as? String,
+                let uuid = (snapshot.value! as AnyObject).object(forKey: "uuid") as? String {
                 //Scoreのインスタンス生成
-                let score = Score(point: point, username: username, time: time)
-                self.scores.insert(score, atIndex: 0)
+                let score = Score(point: point, username: username, time: time, uuid: uuid)
+                self.scores.insert(score, at: 0)
                 self.tableView.reloadData()
             }
         })
+        
+        idString = defaults.string(forKey: "id")
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -39,22 +50,40 @@ class RankingViewController: UIViewController, UITableViewDelegate, UITableViewD
     }
     
     @IBAction func backButton() {
-        self.dismissViewControllerAnimated(true, completion: nil)
+        self.dismiss(animated: true, completion: nil)
     }
     
     /// セルの個数を指定するデリゲートメソッド（必須）
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return scores.count
     }
     
     /// セルに値を設定するデータソースメソッド（必須）
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // セルを取得
-        let cell = tableView.dequeueReusableCellWithIdentifier("RankingCell",forIndexPath: indexPath) as! RankingTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "RankingCell",for: indexPath) as! RankingTableViewCell
         // セルに値を設定
-        cell.rankLabel.text = String(indexPath.row+1)
+        var indexNumber = indexPath.row
+        if indexNumber == 0{
+            cell.rankLabel.text = String(indexPath.row+1)
+        }else if scores[indexPath.row].point == scores[indexPath.row-1].point{
+            while indexNumber > 0 && scores[indexNumber].point == scores[indexPath.row].point{
+                indexNumber -= 1
+            }
+            cell.rankLabel.text = String(indexNumber+2)
+        }else{
+            cell.rankLabel.text = String(indexNumber+1)
+        }
         cell.userLabel.text = scores[indexPath.row].username
         cell.pointLabel.text = String(scores[indexPath.row].point)
+        
+        print("\(indexPath.row)列")
+        
+        if idString == scores[indexPath.row].uuid {
+            cell.rankLabel.textColor = UIColor.red
+            cell.userLabel.textColor = UIColor.red
+            cell.pointLabel.textColor = UIColor.red
+        }
         return cell
     }
     
